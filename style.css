@@ -1,0 +1,79 @@
+#head{
+	background-color: blue;
+	color: white;
+	box-shadow: 10px 10px 30px black;
+}
+
+body{
+	background-color: rgb(70,70,70);
+	color: white;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: background-color: rgb(70,70,70);
+	width: 100%;
+    margin-top: 0px;
+    top: 0px;
+    z-index: 10;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: grey;
+	box-shadow: 10px 10px 10px white;
+	margin-right: 10px;
+}
+
+#school_img{
+	height: 590px;
+	width: 100%;
+}
+
+html{
+	scroll-behavior: smooth
+}
+
+
+
+#trophy{
+	margin-top: 10px;
+	border-radius: 20px;	
+}
+
+#trophy:hover{
+	margin-top: 10;
+	margin-bottom: 5px
+	margin: left:5px;
+	box-shadow: 0px 0px 28px magenta;
+	border-radius: 20px;
+}
+
+#campus{
+	height: 300px;
+	width: 400px;
+	border: 2px solid red;
+	margin: 10px;
+}
+
+#campus:hover{
+	height: 300px;
+	width: 400px;
+	border: 2px solid red;
+	margin: 10px;
+	box-shadow: 0px 0px 28px lime;
+}
